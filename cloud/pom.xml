@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.lokesh</groupId>
+        <artifactId>airline-booking-system</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>cloud</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>service-registry</module>
+        <module>api-gateway</module>
+    </modules>
+
+</project>
